@@ -38,6 +38,7 @@ Akamai|Not vulnerable||[Issue #13](https://github.com/EdOverflow/can-i-take-over
 AWS S3|Vulnerable||[Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/aws-bucket-takeover.yaml)
 AWS Load Balancer (ELB)|Not Vulnerable| status NXDOMAIN and CNAME pointing to XYZ.elb.amazonaws.com| [Issue #137](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)
 AWS/Elastic Beanstalk|Vulnerable|`404 Not Found`|[Issue #194](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)
+Azure | Edge case | | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) ||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/azure-takeover-detection.yaml)
 Bitbucket|Vulnerable||||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/bitbucket-takeover.yaml)
 Campaign Monitor| Vulnerable||[Issue #275](https://github.com/EdOverflow/can-i-take-over-xyz/issues/275)|[Support Page](https://help.campaignmonitor.com/custom-domain-names)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/campaignmonitor-takeover.yaml)
 Cargo Collective|Vulnerable||[Issue #152](https://github.com/EdOverflow/can-i-take-over-xyz/issues/152)| [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/cargocollective-takeover.yaml)
@@ -71,7 +72,6 @@ Landingi  | Edge case| `It looks like you’re lost...` | [Issue #117](https://g
 LaunchRock| Vulnerable||[Issue #74](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74) | |[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/launchrock-takeover.yaml)
 Mashery| Edge Case | `Unrecognized domain`| [HackerOne #275714](https://hackerone.com/reports/275714), [Issue #14](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)
 Medium| Edge Case | ``Oops! We couldn’t find that page. Sorry about that.``| [Issue #206](https://github.com/EdOverflow/can-i-take-over-xyz/issues/206)| [HackerOne](https://hackerone.com/reports/1034023) 
-Microsoft Azure| Vulnerable|| [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
 Netlify | Edge Case | `Not Found - Request ID:`| [Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
 Ngrok | Vulnerable |`Tunnel *.ngrok.io not found` | [Issue #92](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92) | [Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)
 Pantheon| Vulnerable| `404 error unknown site!`|[Issue #24](https://github.com/EdOverflow/can-i-take-over-xyz/issues/24) | [Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)
