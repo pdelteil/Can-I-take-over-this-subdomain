@@ -36,11 +36,11 @@ Airee.ru|Vulnerable||[Issue #104](https://github.com/EdOverflow/can-i-take-over-
 Anima | Vulnerable ||[Issue #126](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)|[Anima Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)| [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/anima-takeover.yaml)
 Akamai|Not vulnerable||[Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
 AWS S3|Vulnerable||[Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/aws-bucket-takeover.yaml)
-AWS Load Balancer (ELB)| Not Vulnerable| status NXDOMAIN and CNAME pointing to XYZ.elb.amazonaws.com| [Issue #137](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)
-AWS/Elastic Beanstalk| Vulnerable| `404 Not Found`|[Issue #194](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)
-Bitbucket| Vulnerable| | | |[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/bitbucket-takeover.yaml)
+AWS Load Balancer (ELB)|Not Vulnerable| status NXDOMAIN and CNAME pointing to XYZ.elb.amazonaws.com| [Issue #137](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)
+AWS/Elastic Beanstalk|Vulnerable|`404 Not Found`|[Issue #194](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)
+Bitbucket|Vulnerable||||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/bitbucket-takeover.yaml)
 Campaign Monitor| Vulnerable||[Issue #275](https://github.com/EdOverflow/can-i-take-over-xyz/issues/275)|[Support Page](https://help.campaignmonitor.com/custom-domain-names)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/campaignmonitor-takeover.yaml)
-Cargo Collective| Vulnerable|`404 Not Found`| [Issue #152](https://github.com/EdOverflow/can-i-take-over-xyz/issues/152)| [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)
+Cargo Collective|Vulnerable||[Issue #152](https://github.com/EdOverflow/can-i-take-over-xyz/issues/152)| [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/cargocollective-takeover.yaml)
 Cloudfront| Not vulnerable| ViewerCertificateException| [Issue #29](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29) | [Domain Security on Amazon CloudFront](https://aws.amazon.com/blogs/networking-and-content-delivery/continually-enhancing-domain-security-on-amazon-cloudfront/)
 Desk|Not vulnerable|`Please try again or try Desk.com free for 14 days.`| [Issue #9](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
 Digital Ocean | Vulnerable | Domain uses DO name servers with no records in DO. |   |   |
