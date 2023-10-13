@@ -65,10 +65,10 @@ jobs:
           INACTIVE_COUNT=$(echo "${{steps.readme_stats.outputs.inactive_count }}")
           EDGE_CASE_COUNT=$(echo "${{ steps.readme_stats.outputs.edge_case_count }}")
 
-          TABLE=$'| Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers |\ '
-          TABLE+=$'  |------------------|-------------------|--------------------|---------------------|\ '
-          TABLE+=$'  | '$LINE_COUNT' | '$ACTIVE_COUNT' | '$INACTIVE_COUNT' | '$EDGE_CASE_COUNT' |\ '
-          echo "$TABLE" >> README.md
+          TABLE=$'| Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers | \n '
+          TABLE+=$'  |------------------|-------------------|--------------------|---------------------| \n'
+          TABLE+=$'  | '$LINE_COUNT' | '$ACTIVE_COUNT' | '$INACTIVE_COUNT' | '$EDGE_CASE_COUNT' | \n'
+          echo -e "$TABLE" >> README.md
 
       # Commit the changes
       - name: Commit and Push Changes
