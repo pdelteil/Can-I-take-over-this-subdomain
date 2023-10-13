@@ -96,7 +96,7 @@ UserVoice| Yes| `This UserVoice subdomain is currently available!`              
 Vercel| No| |[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/vercel-takeover.yaml)
 Webflow| Edge Case| |[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/webflow-takeover.yaml)
 Wix| Edge Case||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/231) | | [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/wix-takeover.yaml)
-Wordpress| Yes| `Do you want to register *.wordpress.com?`| [PR](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)|
+Wordpress| Yes|| [PR](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/wordpress-takeover.yaml)
 Worksites | Yes | `Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142) | 
 WP Engine| No ||
 Zendesk| No|`Help Center Closed`| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
