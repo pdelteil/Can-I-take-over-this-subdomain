@@ -36,8 +36,8 @@ Airee.ru|Yes||[Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/iss
 Anima | Yes ||[Issue #126](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)|[Anima Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)| [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/anima-takeover.yaml)
 Akamai|No||[Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
 AWS S3|Yes||[Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/aws-bucket-takeover.yaml)
-AWS Load Balancer (ELB)|No|| [Issue #137](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/elasticbeanstalk-takeover.yaml)
-AWS/Elastic Beanstalk|Yes|`404 Not Found`|[Issue #194](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)
+AWS Load Balancer (ELB)|Yes|| [Issue #137](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)||
+AWS/Elastic Beanstalk|Yes|`404 Not Found`|[Issue #194](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/elasticbeanstalk-takeover.yaml)
 Azure | Edge case | | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) ||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/azure-takeover-detection.yaml)
 Bitbucket|Yes||||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/bitbucket-takeover.yaml)
 Campaign Monitor| Yes||[Issue #275](https://github.com/EdOverflow/can-i-take-over-xyz/issues/275)|[Support Page](https://help.campaignmonitor.com/custom-domain-names)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/campaignmonitor-takeover.yaml)
