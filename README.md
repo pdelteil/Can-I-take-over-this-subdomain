@@ -79,7 +79,7 @@ Pantheon| Yes||[Issue #24](https://github.com/EdOverflow/can-i-take-over-xyz/iss
 Pingdom | Yes | `Sorry, couldn't find the status page` | [Issue #144](https://github.com/EdOverflow/can-i-take-over-xyz/issues/144) | [Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)
 Readme.io | Yes | `Project doesnt exist... yet!` | [Issue #41](https://github.com/EdOverflow/can-i-take-over-xyz/issues/41)
 Sendgrid| No|                                                                         |
-Shopify| Edge Case| `Sorry, this shop is currently unavailable.`|[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32), [Issue #46](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)| [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
+Shopify| Edge Case| `Sorry, this shop is currently unavailable.`|[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32), [Issue #46](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)| [Writeup](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
 Short.io | Yes| `Link does not exist` | [Issue #260](https://github.com/EdOverflow/can-i-take-over-xyz/issues/260)
 SmartJobBoard | Yes | `This job board website is either expired or its domain name is invalid.` | [Issue #139](https://github.com/EdOverflow/can-i-take-over-xyz/issues/139) | [Support Page](https://help.smartjobboard.com/en/articles/1269655-connecting-a-custom-domain-name)
 Smartling| Edge Case|`Domain is not configured`  | [Issue #67](https://github.com/EdOverflow/can-i-take-over-xyz/issues/67)
@@ -92,7 +92,7 @@ Tumblr| Edge Case| `Whatever you were looking for doesn't currently exist at thi
 Tilda| Edge Case | `Please renew your subscription`| [Issue #155](https://github.com/EdOverflow/can-i-take-over-xyz/issues/155)[PR #20](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)
 Uberflip | Yes | `Non-hub domain, The URL you've accessed does not provide a hub.` | [Issue #150](https://github.com/EdOverflow/can-i-take-over-xyz/issues/150) | [Uberflip Documentation](https://help.uberflip.com/hc/en-us/articles/360018786372-Custom-Domain-Set-up-Your-Hub-on-a-Subdomain)
 Unbounce| No | `The requested URL was not found on this server.`| [Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/1dc592a59a0ff9729df00ce2de007f8ba0b38bf5/takeovers/unbounce-takeover.yaml) 
-Uptimerobot| Yes| `page not found`|[Issue #45](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45) | [Uptimerobot-Sub-takeover](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)
+Uptimerobot| Yes| `page not found`|[Issue #45](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45) | [Writeup](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)
 UserVoice| Yes| `This UserVoice subdomain is currently available!`                      |
 Vercel| No| |[Issue #183](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/vercel-takeover.yaml)
 Webflow| Edge Case| |[Issue #44](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/webflow-takeover.yaml)
