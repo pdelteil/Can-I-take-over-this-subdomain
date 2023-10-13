@@ -105,3 +105,4 @@ Wordpress|Yes|| [:information_source:](https://github.com/EdOverflow/can-i-take-
 Worksites |Yes| `Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.` | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142) | 
 WP Engine|No||
 Zendesk|No|`Help Center Closed`| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [:blue_book:](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
+| Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers |\n|------------------|-------------------|--------------------|---------------------|\n|  |  |  |  |\n
