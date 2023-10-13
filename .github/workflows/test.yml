@@ -35,7 +35,7 @@ jobs:
         echo "::set-output name=word_count::$WORD_COUNT"
         echo "::set-output name=line_count::$LINE_COUNT"
 
-    - name: Display Counts
+  - name: Display Counts
       run: |
         echo "Word Count: ${{ steps.readme_stats.outputs.word_count }}"
         echo "Line Count: ${{ steps.readme_stats.outputs.line_count }}"
