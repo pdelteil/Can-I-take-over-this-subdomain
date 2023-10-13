@@ -43,7 +43,7 @@ Bitbucket|Yes||||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob
 Campaign Monitor| Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/275)|[Support Page](https://help.campaignmonitor.com/custom-domain-names)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/campaignmonitor-takeover.yaml)
 Cargo Collective|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/152)| [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/cargocollective-takeover.yaml)
 Cloudfront| No| ViewerCertificateException| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29) | [Domain Security on Amazon CloudFront](https://aws.amazon.com/blogs/networking-and-content-delivery/continually-enhancing-domain-security-on-amazon-cloudfront/)
-Desk|No|`Please try again or try Desk.com free for 14 days.`| [Issue #9](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
+Desk|No|`Please try again or try Desk.com free for 14 days.`| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
 Digital Ocean | Yes | Domain uses DO name servers with no records in DO. |   |   |
 Discourse | Yes | | | [Hackerone](https://hackerone.com/reports/264494)
 Fastly| No| `Fastly error: unknown domain:`| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)
@@ -91,7 +91,7 @@ Tumblr| Edge Case| `Whatever you were looking for doesn't currently exist at thi
 Tilda| Edge Case | `Please renew your subscription`| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/155)[PR](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)
 Uberflip|Yes|| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/150) | [Documentation](https://help.uberflip.com/hc/en-us/articles/360018786372-Custom-Domain-Set-up-Your-Hub-on-a-Subdomain)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/uberflip-takeover.yaml)
 Unbounce|No||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/1dc592a59a0ff9729df00ce2de007f8ba0b38bf5/takeovers/unbounce-takeover.yaml) 
-Uptimerobot| Yes| `page not found`|[Issue #45](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45) | [Writeup](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)
+Uptimerobot| Yes| `page not found`|[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45) | [Writeup](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)
 UserVoice| Yes| `This UserVoice subdomain is currently available!`                      |
 Vercel| No| |[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/vercel-takeover.yaml)
 Webflow| Edge Case| |[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/webflow-takeover.yaml)
