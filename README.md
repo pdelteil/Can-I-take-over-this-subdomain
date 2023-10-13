@@ -27,7 +27,7 @@ You can submit new services [here](https://github.com/pdelteil/can-i-take-over-t
 
 Fingerprints are found in the linked issues or in the nuclei templates. 
 
-Service|Vulnerable|Fingerprint|Discussion|Documentation|Nuclei template
+Service|Vulnerable|Fingerprint|Info|Docs|Nuclei template
 :---|:---:|:---:|:---:|:---:|:---:
 Acquia|No||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)||No
 Agile CRM|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/agilecrm-takeover.yaml)
