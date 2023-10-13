@@ -30,7 +30,7 @@ The only tool that will be supporting the discovery of takeover is going to be N
 
 Fingerprints are found in the linked issues or in the nuclei templates. 
 
-Service|Vulnerable|Fingerprint|Info|Docs|Nuclei template
+Service|Vulnerable|Fingerprint|Discussions|Docs|Nuclei template
 :---|:---:|:---:|:---:|:---:|:---:
 Acquia|No||[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)||:x:
 Agile CRM|Yes||[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/agilecrm-takeover.yaml)
