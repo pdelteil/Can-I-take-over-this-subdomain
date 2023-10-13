@@ -26,17 +26,6 @@ body:
       placeholder: Site not found or NXDomain error      
     validations:
       required: true
-  - type: dropdown
-    id: type
-    attributes:
-      label: Type of detection
-      description: Is it a NXDOMAIN error or a web predefined message?
-      options:
-        - NXDOMAIN
-        - Web Error
-      default: 0
-    validations:
-      required: true
    - type: textarea
     id: logs
     attributes:
