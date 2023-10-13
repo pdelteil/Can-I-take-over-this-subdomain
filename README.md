@@ -93,7 +93,7 @@ Uberflip | Vulnerable | `Non-hub domain, The URL you've accessed does not provid
 Unbounce| Not Vulnerable | `The requested URL was not found on this server.`| [Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/1dc592a59a0ff9729df00ce2de007f8ba0b38bf5/takeovers/unbounce-takeover.yaml) 
 Uptimerobot| Vulnerable| `page not found`|[Issue #45](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45) | [Uptimerobot-Sub-takeover](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)
 UserVoice| Vulnerable| `This UserVoice subdomain is currently available!`                      |
-Vercel| Not Vulnerable| The deployment could not be found on Vercel.` |[Issue #183](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)
+Vercel| Not Vulnerable| |[Issue #183](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/vercel-takeover.yaml)
 Webflow| Edge Case| |[Issue #44](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/webflow-takeover.yaml)
 Wix| Edge Case||[Issue #231](https://github.com/EdOverflow/can-i-take-over-xyz/issues/231) | | [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/wix-takeover.yaml)
 Wordpress| Vulnerable| `Do you want to register *.wordpress.com?`| [PR #176](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)|
