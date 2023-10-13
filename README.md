@@ -32,7 +32,7 @@ Fingerprints are found in the linked issues or in the nuclei templates.
 
 Service|Vulnerable|Fingerprint|Info|Docs|Nuclei template
 :---|:---:|:---:|:---:|:---:|:---:
-Acquia|No||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)||[:x:](No)
+Acquia|No||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)||:x:
 Agile CRM|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/agilecrm-takeover.yaml)
 Airee.ru|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)||[:heavy_check_mark: ](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/airee-takeover.yaml)
 Anima| Yes ||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)|[Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)| [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/anima-takeover.yaml)
