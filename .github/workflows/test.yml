@@ -48,3 +48,25 @@ jobs:
            echo "Active Takeovers Count: ${{ steps.readme_stats.outputs.active_count }}"
            echo "Inactive Takeovers Count: ${{ steps.readme_stats.outputs.inactive_count }}"
            echo "Edge Case Takeovers Count: ${{ steps.readme_stats.outputs.edge_case_count }}"
+
+      - name: Append Table to README
+        run: |
+          LINE_COUNT="${{ github.event.workflow_run.outputs.line_count }}"
+          ACTIVE_COUNT="${{ github.event.workflow_run.outputs.active_count }}"
+          INACTIVE_COUNT="${{ github.event.workflow_run.outputs.inactive_count }}"
+          EDGE_CASE_COUNT="${{ github.event.workflow_run.outputs.edge_case_count }}"
+
+          TABLE="| Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers |\n"
+          TABLE+="|------------------|-------------------|--------------------|---------------------|\n"
+          TABLE+="| $LINE_COUNT | $ACTIVE_COUNT | $INACTIVE_COUNT | $EDGE_CASE_COUNT |\n"
+
+          echo "$TABLE" >> README.md
+
+      # Commit the changes
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add README.md
+          git commit -m "Update README with table"
+          git push
