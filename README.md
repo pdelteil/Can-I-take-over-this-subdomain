@@ -33,12 +33,12 @@ Fingerprints are found in the linked issues or in the nuclei templates.
 Service|Vulnerable|Fingerprint|Info|Docs|Nuclei template
 :---|:---:|:---:|:---:|:---:|:---:
 Acquia|No||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)||No
-Agile CRM|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/agilecrm-takeover.yaml)
-Airee.ru|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/airee-takeover.yaml)
+Agile CRM|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/agilecrm-takeover.yaml)
+Airee.ru|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)||[:heavy_check_mark: ](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/airee-takeover.yaml)
 Anima| Yes ||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)|[Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)| [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/anima-takeover.yaml)
 Akamai|No||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
-AWS EC2|Yes||[Discussion](https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/3)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/ec2-detection.yaml)
-AWS Elastic Beanstalk|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/elasticbeanstalk-takeover.yaml)
+AWS EC2|Yes||[Discussion](https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/3)||[:heavy_check_mark: ](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/ec2-detection.yaml)
+AWS Elastic Beanstalk|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)||[:heavy_check_mark: ](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/elasticbeanstalk-takeover.yaml)
 AWS Load Balancer (ELB)|Yes|| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)||
 AWS S3|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/aws-bucket-takeover.yaml)
 Azure|Edge case|| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) ||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/azure-takeover-detection.yaml)
