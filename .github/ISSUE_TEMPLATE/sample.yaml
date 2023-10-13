@@ -4,12 +4,12 @@ title: "[Takeover]: "
 labels: ["takeover"]
 projects: ["can-i-take-over-this-subdomain"]
 assignees:
-  - philippedelteil
+  - pdelteil
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to share this new subdomain takeover!
   - type: input
     id: contact
     attributes:
