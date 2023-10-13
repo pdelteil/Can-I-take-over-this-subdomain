@@ -20,8 +20,11 @@ The only tool that will be supporting the discovery of takeover is going to be N
 
 ## How to contribute
 
-You can submit new services [here](https://github.com/pdelteil/can-i-take-over-this-subdomain/issues/new/choose).
-
+1. You can submit new services [here](https://github.com/pdelteil/can-i-take-over-this-subdomain/issues/new/choose).
+2. You can add the service directly in this [Readme](https://github.com/pdelteil/Can-I-take-over-this-subdomain/edit/master/README.md)
+3. Create a Nuclei template for takeovers. (Doesn't matter if it's not vulnerable anymore).
+4. Find public bug bounty reports and link it to the takeover.
+5. Sponsore this project. 
 
 # All entries
 
@@ -32,7 +35,7 @@ Service|Vulnerable|Fingerprint|Info|Docs|Nuclei template
 Acquia|No||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)||No
 Agile CRM|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/agilecrm-takeover.yaml)
 Airee.ru|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/airee-takeover.yaml)
-Anima | Yes ||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)|[Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)| [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/anima-takeover.yaml)
+Anima| Yes ||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)|[Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)| [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/anima-takeover.yaml)
 Akamai|No||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
 AWS EC2|Yes||[Discussion](https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/3)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/ec2-detection.yaml)
 AWS Elastic Beanstalk|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/elasticbeanstalk-takeover.yaml)
