@@ -107,4 +107,3 @@ WP Engine|No||
 Zendesk|No|`Help Center Closed`| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [:blue_book:](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
 
 # Stats 
- # Stats \ | Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers |\   |------------------|-------------------|--------------------|---------------------|\   | 73 | 38 | 21 | 14 |\ 
