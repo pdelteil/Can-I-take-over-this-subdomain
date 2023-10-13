@@ -12,11 +12,12 @@ You can read up more about subdomain takeovers here:
 
 - <https://0xpatrik.com/subdomain-takeover-ns/>
 
-```
+
 
 ## How to contribute
 
 You can submit new services [here](https://github.com/pdelteil/can-i-take-over-this-subdomain/blob/master/.github/ISSUE_TEMPLATE/new-entry.md).
+
 
 # All entries
 
