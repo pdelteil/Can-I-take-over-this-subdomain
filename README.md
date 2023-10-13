@@ -95,7 +95,7 @@ Uptimerobot| Vulnerable| `page not found`|[Issue #45](https://github.com/EdOverf
 UserVoice| Vulnerable| `This UserVoice subdomain is currently available!`                      |
 Vercel| Not Vulnerable| The deployment could not be found on Vercel.` |[Issue #183](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)
 Webflow| Edge Case| `The page you are looking for doesn't exist or has been moved.` |[Issue #44](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)
-Wix| Edge Case| `Looks Like This Domain Isn't Connected To A Website Yet!` |[Issue #231](https://github.com/EdOverflow/can-i-take-over-xyz/issues/231) 
+Wix| Edge Case||[Issue #231](https://github.com/EdOverflow/can-i-take-over-xyz/issues/231) | | [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/wix-takeover.yaml)
 Wordpress| Vulnerable| `Do you want to register *.wordpress.com?`| [PR #176](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)|
 Worksites | Vulnerable | `Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.` | [Issue #142](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142) | 
 WP Engine| Not vulnerable ||
