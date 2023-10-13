@@ -70,7 +70,7 @@ Key CDN| No| | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/
 Kinsta| Yes| `No Site For Domain`|[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48) | [Documentation](https://kinsta.com/knowledgebase/add-domain/)
 Landingi  | Edge case| `It looks like you’re lost...` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/117)
 LaunchRock| Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74) | |[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/launchrock-takeover.yaml)
-Mashery| Edge Case | `Unrecognized domain`| [HackerOne](https://hackerone.com/reports/275714), [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)
+Mashery|Edge Case||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)| [HackeOne](https://hackerone.com/reports/275714) | [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/mashery-takeover.yaml)
 Medium| Edge Case | ``Oops! We couldn’t find that page. Sorry about that.``| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/206)| [HackerOne](https://hackerone.com/reports/1034023) 
 Netlify | Edge Case | `Not Found - Request ID:`| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
 Ngrok | Yes |`Tunnel *.ngrok.io not found` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92) | [Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)
