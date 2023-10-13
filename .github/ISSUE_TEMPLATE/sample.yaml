@@ -18,6 +18,17 @@ body:
       placeholder: ex. Github
     validations:
       required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of detection
+      description: Is it a NXDOMAIN error or a web error/message?
+      options:
+        - NXDOMAIN
+        - Web Error
+      default: 1
+    validations:
+      required: true
   - type: textarea
     id: fingerprint
     attributes:
