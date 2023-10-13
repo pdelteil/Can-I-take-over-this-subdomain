@@ -75,7 +75,7 @@ Mashery| Edge Case | `Unrecognized domain`| [HackerOne #275714](https://hackeron
 Medium| Edge Case | ``Oops! We couldn’t find that page. Sorry about that.``| [Issue #206](https://github.com/EdOverflow/can-i-take-over-xyz/issues/206)| [HackerOne](https://hackerone.com/reports/1034023) 
 Netlify | Edge Case | `Not Found - Request ID:`| [Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
 Ngrok | Yes |`Tunnel *.ngrok.io not found` | [Issue #92](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92) | [Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)
-Pantheon| Yes| `404 error unknown site!`|[Issue #24](https://github.com/EdOverflow/can-i-take-over-xyz/issues/24) | [Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)
+Pantheon| Yes||[Issue #24](https://github.com/EdOverflow/can-i-take-over-xyz/issues/24) | [Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)| [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/pantheon-takeover.yaml)
 Pingdom | Yes | `Sorry, couldn't find the status page` | [Issue #144](https://github.com/EdOverflow/can-i-take-over-xyz/issues/144) | [Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)
 Readme.io | Yes | `Project doesnt exist... yet!` | [Issue #41](https://github.com/EdOverflow/can-i-take-over-xyz/issues/41)
 Sendgrid| No|                                                                         |
