@@ -4,6 +4,7 @@
 This fork is a legacy version of "Can I take over XYZ?". This repo will be updated faster and in a clearer manner. 
 
 
+
 ## What is a subdomain takeover?
 
 > Subdomain takeover vulnerabilities occur when a subdomain (subdomain.example.com) is pointing to a service (e.g. GitHub pages, Heroku, etc.) that has been removed or deleted. This allows an attacker to set up a page on the service that was being used and point their page to that subdomain. 
@@ -12,6 +13,9 @@ You can read up more about subdomain takeovers here:
 
 - <https://0xpatrik.com/subdomain-takeover-ns/>
 
+## Fingerprints and Nuclei templates
+
+The only tool that will be supporting the discovery of takeover is going to be Nuclei (takeover -> template)
 
 
 ## How to contribute
@@ -21,8 +25,8 @@ You can submit new services [here](https://github.com/pdelteil/can-i-take-over-t
 
 # All entries
 
-Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation
---------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
+Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation | Nuclei template? 
+--------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------|-----------------
 Acquia | Not vulnerable | `Web Site Not Found` |[Issue #103](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)
 Agile CRM | Vulnerable | `Sorry, this page is no longer available.` |[Issue #145](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)
 Airee.ru                             | Vulnerable     | | [Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104) |
