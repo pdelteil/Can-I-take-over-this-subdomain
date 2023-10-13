@@ -37,6 +37,14 @@ body:
       placeholder: Site not found or NXDomain error      
     validations:
       required: true
+  - type: input
+    id: nuclei
+    attributes:
+      label: Service name
+      description: If there is already a nuclei template to detect this takeover, add the URL
+      placeholder: https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/bitbucket-takeover.yaml
+    validations:
+      required: false  
   - type: textarea
     id: evidence
     attributes:
