@@ -1,7 +1,8 @@
 
 ## What tha fork? 
 
-This fork is a legacy version of ["Can I take over XYZ?"](https://github.com/EdOverflow/can-i-take-over-xyz). This repo will be updated faster and in a clearer manner. 
+This fork is a legacy version of [Can I take over XYZ?](https://github.com/EdOverflow/can-i-take-over-xyz)
+This repo will be updated faster and in a clearer manner. 
 
 
 
@@ -68,6 +69,7 @@ Kinsta                           | Vulnerable     | `No Site For Domain`        
 Landingi  | Edge case     | `It looks like you’re lost...` | [Issue #117](https://github.com/EdOverflow/can-i-take-over-xyz/issues/117)
 LaunchRock                         | Vulnerable     | `It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us.`                                                 |[Issue #74](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74) | 
 Mashery                           | Edge Case | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714), [Issue #14](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)
+Medium                            | Edge Case | https://hackerone.com/reports/1034023 | [Issue #206](https://github.com/EdOverflow/can-i-take-over-xyz/issues/206)
 Microsoft Azure           | Vulnerable     |  | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
 Netlify | Edge Case | `Not Found - Request ID:`  | [Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
 Ngrok | Vulnerable | `Tunnel *.ngrok.io not found` | [Issue #92](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92) | [Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)
