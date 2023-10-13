@@ -26,7 +26,7 @@ I recommend searching for the name of the service you are targeting in the issue
 
 ## How to contribute
 
-You can submit new services here: https://github.com/EdOverflow/can-i-take-over-xyz/issues/new?template=new-entry.md.
+You can submit new services [here](https://github.com/pdelteil/can-i-take-over-this-subdomain/blob/master/.github/ISSUE_TEMPLATE/new-entry.md).
 
 A list of services that can be checked (although check for duplicates against this list first) can be found here: https://github.com/EdOverflow/can-i-take-over-xyz/issues/26.
 
