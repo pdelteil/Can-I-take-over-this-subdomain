@@ -87,6 +87,7 @@ Statuspage | No | | [PR](https://github.com/EdOverflow/can-i-take-over-xyz/pull/
 Strikingly|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/58) | [Writeup](https://medium.com/@sherif0x00/takeover-subdomains-pointing-to-strikingly-5e67df80cdfd)| [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/strikingly-takeover.yaml)
 Surge.sh| Yes| `project not found`|| [Surge Documentation](https://surge.sh/help/adding-a-custom-domain)
 SurveySparrow | Yes | `'Ouch! Account not found'` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/281) |[Custom domain]( https://help.surveysparrow.com/custom-domain)
+TeamWork | Yes | | | [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/teamwork-takeover.yaml)
 Tumblr| Edge Case||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/240) | [Documentation](https://www.tumblr.com/docs/en/custom_domains)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/tumblr-takeover.yaml)
 Tilda| Edge Case | `Please renew your subscription`| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/155)[PR](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)
 Uberflip|Yes|| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/150) | [Documentation](https://help.uberflip.com/hc/en-us/articles/360018786372-Custom-Domain-Set-up-Your-Hub-on-a-Subdomain)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/uberflip-takeover.yaml)
