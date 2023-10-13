@@ -1,10 +1,10 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+name: New Takeover
+description: Add a new subdomain takeover case
+title: "[Takeover]: "
+labels: ["takeover"]
+projects: ["can-i-take-over-this-subdomain"]
 assignees:
-  - octocat
+  - philippedelteil
 body:
   - type: markdown
     attributes:
