@@ -61,7 +61,7 @@ Google Cloud Storage | No |   <?xml version='1.0' encoding='UTF-8'?><Error><Code
 Google Sites| No| `The requested URL was not found on this server. That’s all we know.`                                                    | [Issue #277](https://github.com/EdOverflow/can-i-take-over-xyz/issues/277) | [Google Support](https://support.google.com/webmasters/answer/9008080?visit_id=637981741431097680-3818919062&rd=2)|
 HatenaBlog | Yes | `404 Blog is not found`|
 Help Juice| Yes| `We could not find what you're looking for.`|| [Help Juice Support Page](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)
-Help Scout| Yes| `No settings were found for this company:`|| [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
+Help Scout| Yes||| [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpscout-takeover.yaml)
 Heroku| Edge case| `No such app`| [Issue #38](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)
 HubSpot| No | `This page isn’t available`
 Instapage | No | | [Issue #73](https://github.com/EdOverflow/can-i-take-over-xyz/issues/73) | |
