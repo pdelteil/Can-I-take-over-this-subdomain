@@ -25,6 +25,15 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      - name: Remove Lines After Matching Pattern
+        run: |
+          # Use grep to find the line matching a specific pattern
+          MATCHED_LINE=$(grep -n '| Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers |' README.md | head -n 1 |cut -d: -f1)
+
+          if [[ -n "$MATCHED_LINE" ]]; then
+            # Use sed to remove lines after the matched line
+            sed -i "${MATCHED_LINE},\$d" README.md
+          fi
       - name: Read README and Count
         id: readme_stats
         run: |
@@ -56,9 +65,9 @@ jobs:
           INACTIVE_COUNT=$(echo "${{steps.readme_stats.outputs.inactive_count }}")
           EDGE_CASE_COUNT=$(echo "${{ steps.readme_stats.outputs.edge_case_count }}")
 
-          TABLE=$'  | Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers |\n'
-          TABLE+=$'  |------------------|-------------------|--------------------|---------------------|\n'
-          TABLE+=$'  | '$LINE_COUNT' | '$ACTIVE_COUNT' | '$INACTIVE_COUNT' | '$EDGE_CASE_COUNT' |\n'
+          TABLE=$' # Stats \ | Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers |\ '
+          TABLE+=$'  |------------------|-------------------|--------------------|---------------------|\ '
+          TABLE+=$'  | '$LINE_COUNT' | '$ACTIVE_COUNT' | '$INACTIVE_COUNT' | '$EDGE_CASE_COUNT' |\ '
           echo "$TABLE" >> README.md
 
       # Commit the changes
