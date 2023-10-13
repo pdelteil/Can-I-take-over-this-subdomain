@@ -38,9 +38,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: evidence
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Evidence
+      description: Add screenshots to prove the takeover
+
 
