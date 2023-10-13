@@ -21,7 +21,7 @@ The only tool that will be supporting the discovery of takeover is going to be N
 
 ## How to contribute
 
-You can submit new services [here](https://github.com/pdelteil/can-i-take-over-this-subdomain/blob/master/.github/ISSUE_TEMPLATE/new-entry.md).
+You can submit new services [here](https://github.com/pdelteil/can-i-take-over-this-subdomain/issues/new/choose).
 
 
 # All entries
