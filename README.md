@@ -29,7 +29,7 @@ You can submit new services [here](https://github.com/pdelteil/can-i-take-over-t
 Fingerprints are found in the linked issues or in the nuclei templates. 
 
 Service                                        | Vulnerable?         | Fingerprint                                                             | Discussion                                                    | Documentation | Nuclei template 
---------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------|----
+--------------------------------------------- | --------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------|----
 Acquia|No||[Issue #103](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)||No
 Agile CRM|Yes||[Issue #145](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/agilecrm-takeover.yaml)
 Airee.ru|Yes||[Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/airee-takeover.yaml)
@@ -59,7 +59,7 @@ Github| Edge case|| [Issue #37](https://github.com/EdOverflow/can-i-take-over-xy
 Gitlab| No || [HackerOne #312118](https://hackerone.com/reports/312118)
 Google Cloud Storage | No |   <?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist.</Message></Error>   
 Google Sites| No| `The requested URL was not found on this server. That’s all we know.`                                                    | [Issue #277](https://github.com/EdOverflow/can-i-take-over-xyz/issues/277) | [Google Support](https://support.google.com/webmasters/answer/9008080?visit_id=637981741431097680-3818919062&rd=2)|
-HatenaBlog | vulnerable | `404 Blog is not found`|
+HatenaBlog | Yes | `404 Blog is not found`|
 Help Juice| Yes| `We could not find what you're looking for.`|| [Help Juice Support Page](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)
 Help Scout| Yes| `No settings were found for this company:`|| [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
 Heroku| Edge case| `No such app`| [Issue #38](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)
