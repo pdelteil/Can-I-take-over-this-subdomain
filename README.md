@@ -78,7 +78,7 @@ Pantheon| Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/
 Pingdom | Yes | `Sorry, couldn't find the status page` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/144) | [Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)
 Readme.io | Yes | `Project doesnt exist... yet!` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/41)
 Sendgrid| No|                                                                         |
-Shopify| Edge Case| `Sorry, this shop is currently unavailable.`|[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32), [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)| [Writeup](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
+Shopify| Edge Case||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32), [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)| [Writeup](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) |[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/shopify-takeover.yaml)
 Short.io | Yes| `Link does not exist` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/260)
 SmartJobBoard|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/139) | [Documentation](https://help.smartjobboard.com/en/articles/1269655-connecting-a-custom-domain-name)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/smartjob-takeover.yaml)
 Smartling| Edge Case|`Domain is not configured`  | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/67)
