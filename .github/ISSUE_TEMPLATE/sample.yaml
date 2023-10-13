@@ -19,12 +19,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: what-happened
+    id: fingerprint
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Fingerprint
+      description: Paste here the fingerprint used to identify this takeover
+      placeholder: Site not found or NXDomain error      
     validations:
       required: true
   - type: dropdown
