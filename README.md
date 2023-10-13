@@ -25,7 +25,7 @@ You can submit new services [here](https://github.com/pdelteil/can-i-take-over-t
 
 # All entries
 
-Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation | Nuclei template? 
+Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation | Nuclei template 
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------|-----------------
 Acquia | Not vulnerable | `Web Site Not Found` |[Issue #103](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)
 Agile CRM | Vulnerable | `Sorry, this page is no longer available.` |[Issue #145](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)
