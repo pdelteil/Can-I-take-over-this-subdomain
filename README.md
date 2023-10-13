@@ -42,31 +42,31 @@ Azure | Edge case | | [Issue #35](https://github.com/EdOverflow/can-i-take-over-
 Bitbucket|Yes||||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/bitbucket-takeover.yaml)
 Campaign Monitor| Yes||[Issue #275](https://github.com/EdOverflow/can-i-take-over-xyz/issues/275)|[Support Page](https://help.campaignmonitor.com/custom-domain-names)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/campaignmonitor-takeover.yaml)
 Cargo Collective|Yes||[Issue #152](https://github.com/EdOverflow/can-i-take-over-xyz/issues/152)| [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/cargocollective-takeover.yaml)
-Cloudfront| Not vulnerable| ViewerCertificateException| [Issue #29](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29) | [Domain Security on Amazon CloudFront](https://aws.amazon.com/blogs/networking-and-content-delivery/continually-enhancing-domain-security-on-amazon-cloudfront/)
-Desk|Not vulnerable|`Please try again or try Desk.com free for 14 days.`| [Issue #9](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
+Cloudfront| No| ViewerCertificateException| [Issue #29](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29) | [Domain Security on Amazon CloudFront](https://aws.amazon.com/blogs/networking-and-content-delivery/continually-enhancing-domain-security-on-amazon-cloudfront/)
+Desk|No|`Please try again or try Desk.com free for 14 days.`| [Issue #9](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
 Digital Ocean | Yes | Domain uses DO name servers with no records in DO. |   |   |
 Discourse | Yes | | | [Hackerone](https://hackerone.com/reports/264494)
-Fastly| Not vulnerable| `Fastly error: unknown domain:`| [Issue #22](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)
-Feedpress| Not vulnerable| `The feed has not been found.`| [Issue #80](https://github.com/EdOverflow/can-i-take-over-xyz/issues/80)
-Firebase | Not vulnerable | | [Issue #128](https://github.com/EdOverflow/can-i-take-over-xyz/issues/128) |
+Fastly| No| `Fastly error: unknown domain:`| [Issue #22](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)
+Feedpress| No| `The feed has not been found.`| [Issue #80](https://github.com/EdOverflow/can-i-take-over-xyz/issues/80)
+Firebase | No | | [Issue #128](https://github.com/EdOverflow/can-i-take-over-xyz/issues/128) |
 Fly.io| Yes| `404 Not Found`| [Issue #101](https://github.com/EdOverflow/can-i-take-over-xyz/issues/101)
-Freshdesk| Not vulnerable |`We couldn't find servicedesk.victim.tld Maybe this is still fresh! You can claim it now at http://www.freshservice.com/signup`| [Issue #214](https://github.com/EdOverflow/can-i-take-over-xyz/issues/214)| [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
+Freshdesk| No |`We couldn't find servicedesk.victim.tld Maybe this is still fresh! You can claim it now at http://www.freshservice.com/signup`| [Issue #214](https://github.com/EdOverflow/can-i-take-over-xyz/issues/214)| [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
 Frontify | Edge case | `404 - Page Not Found` `Oops… looks like you got lost` | [Issue #170](https://github.com/EdOverflow/can-i-take-over-xyz/issues/170) | 
 Gemfury | Yes | `404: This page could not be found.` | [Issue #154](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154) | [Article](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)
 Ghost| Yes| `The thing you were looking for is no longer here, or never was`|
 Github| Edge case|| [Issue #37](https://github.com/EdOverflow/can-i-take-over-xyz/issues/37) [Issue #68](https://github.com/EdOverflow/can-i-take-over-xyz/issues/68)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/github-takeover.yaml)
-Gitlab| Not vulnerable || [HackerOne #312118](https://hackerone.com/reports/312118)
-Google Cloud Storage | Not vulnerable |   <?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist.</Message></Error>   
-Google Sites| Not vulnerable| `The requested URL was not found on this server. That’s all we know.`                                                    | [Issue #277](https://github.com/EdOverflow/can-i-take-over-xyz/issues/277) | [Google Support](https://support.google.com/webmasters/answer/9008080?visit_id=637981741431097680-3818919062&rd=2)|
+Gitlab| No || [HackerOne #312118](https://hackerone.com/reports/312118)
+Google Cloud Storage | No |   <?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist.</Message></Error>   
+Google Sites| No| `The requested URL was not found on this server. That’s all we know.`                                                    | [Issue #277](https://github.com/EdOverflow/can-i-take-over-xyz/issues/277) | [Google Support](https://support.google.com/webmasters/answer/9008080?visit_id=637981741431097680-3818919062&rd=2)|
 HatenaBlog | vulnerable | `404 Blog is not found`|
 Help Juice| Yes| `We could not find what you're looking for.`|| [Help Juice Support Page](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)
 Help Scout| Yes| `No settings were found for this company:`|| [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
 Heroku| Edge case| `No such app`| [Issue #38](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)
-HubSpot| Not vulnerable | `This page isn’t available`
-Instapage | Not vulnerable | | [Issue #73](https://github.com/EdOverflow/can-i-take-over-xyz/issues/73) | |
+HubSpot| No | `This page isn’t available`
+Instapage | No | | [Issue #73](https://github.com/EdOverflow/can-i-take-over-xyz/issues/73) | |
 Intercom| Yes| `Uh oh. That page doesn't exist.`| [Issue #69](https://github.com/EdOverflow/can-i-take-over-xyz/issues/69) | [Help center](https://www.intercom.com/help/)
 JetBrains| Yes| `is not a registered InCloud YouTrack`| | [YouTrack InCloud Help Page](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)
-Key CDN| Not vulnerable| | [Issue #112](https://github.com/EdOverflow/can-i-take-over-xyz/issues/112) |
+Key CDN| No| | [Issue #112](https://github.com/EdOverflow/can-i-take-over-xyz/issues/112) |
 Kinsta| Yes| `No Site For Domain`|[Issue #48](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48) | [kinsta-add-domain](https://kinsta.com/knowledgebase/add-domain/)
 Landingi  | Edge case| `It looks like you’re lost...` | [Issue #117](https://github.com/EdOverflow/can-i-take-over-xyz/issues/117)
 LaunchRock| Yes||[Issue #74](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74) | |[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/launchrock-takeover.yaml)
@@ -77,12 +77,12 @@ Ngrok | Yes |`Tunnel *.ngrok.io not found` | [Issue #92](https://github.com/EdOv
 Pantheon| Yes| `404 error unknown site!`|[Issue #24](https://github.com/EdOverflow/can-i-take-over-xyz/issues/24) | [Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)
 Pingdom | Yes | `Sorry, couldn't find the status page` | [Issue #144](https://github.com/EdOverflow/can-i-take-over-xyz/issues/144) | [Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)
 Readme.io | Yes | `Project doesnt exist... yet!` | [Issue #41](https://github.com/EdOverflow/can-i-take-over-xyz/issues/41)
-Sendgrid| Not vulnerable|                                                                         |
+Sendgrid| No|                                                                         |
 Shopify| Edge Case| `Sorry, this shop is currently unavailable.`|[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32), [Issue #46](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)| [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
 Short.io | Yes| `Link does not exist` | [Issue #260](https://github.com/EdOverflow/can-i-take-over-xyz/issues/260)
 SmartJobBoard | Yes | `This job board website is either expired or its domain name is invalid.` | [Issue #139](https://github.com/EdOverflow/can-i-take-over-xyz/issues/139) | [Support Page](https://help.smartjobboard.com/en/articles/1269655-connecting-a-custom-domain-name)
 Smartling| Edge Case|`Domain is not configured`  | [Issue #67](https://github.com/EdOverflow/can-i-take-over-xyz/issues/67)
-Squarespace| Not vulnerable |                                                                         |
+Squarespace| No |                                                                         |
 Statuspage | No | `Status page pushed a DNS verification in order to prevent malicious takeovers what they mentioned in` [This Doc](https://support.atlassian.com/statuspage/docs/configure-your-dns/) | [PR #105](https://github.com/EdOverflow/can-i-take-over-xyz/pull/105) and [PR #171](https://github.com/EdOverflow/can-i-take-over-xyz/pull/171) | [Statuspage documentation](https://help.statuspage.io/knowledge_base/topics/domain-ownership) |          
 Strikingly| Yes| `page not found`|[Issue #58](https://github.com/EdOverflow/can-i-take-over-xyz/issues/58) | [Strikingly-Sub-takeover](https://medium.com/@sherif0x00/takeover-subdomains-pointing-to-strikingly-5e67df80cdfd)
 Surge.sh| Yes| `project not found`|| [Surge Documentation](https://surge.sh/help/adding-a-custom-domain)
@@ -98,5 +98,5 @@ Webflow| Edge Case| |[Issue #44](https://github.com/EdOverflow/can-i-take-over-x
 Wix| Edge Case||[Issue #231](https://github.com/EdOverflow/can-i-take-over-xyz/issues/231) | | [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/wix-takeover.yaml)
 Wordpress| Yes| `Do you want to register *.wordpress.com?`| [PR #176](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)|
 Worksites | Yes | `Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.` | [Issue #142](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142) | 
-WP Engine| Not vulnerable ||
-Zendesk| Not vulnerable|`Help Center Closed`| [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
+WP Engine| No ||
+Zendesk| No|`Help Center Closed`| [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
