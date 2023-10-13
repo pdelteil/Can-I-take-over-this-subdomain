@@ -28,14 +28,21 @@ jobs:
       - name: Read README and Count
         id: readme_stats
         run: |
-          README_CONTENT=$(cat README.md)  # Update the filename if your README has a different name
-          WORD_COUNT=$(echo "$README_CONTENT" | wc -w)
-          LINE_COUNT=$(echo "$README_CONTENT" | wc -l)
-          # You can add more counts or processing as needed
-          echo "::set-output name=word_count::$WORD_COUNT"
+          README_CONTENT=$(cat README.md)
+          # Extract all lines of the table
+          TABLE_LINES=$(echo "$README_CONTENT" | sed -n '/|/p')
+          LINE_COUNT=$(echo "$TABLE_LINES"|wc -l)
+          ACTIVE_COUNT=$(echo "$TABLE_LINES"|awk -F"|" '{print $2}'|grep "Yes"|wc -l)
+          INACTIVE_COUNT=$(echo "$TABLE_LINES"|awk -F"|" '{print $2}'|grep "No"|wc -l)
+          EDGE_CASE_COUNT=$(echo "$TABLE_LINES"|awk -F"|" '{print $2}'|grep "Edge Case"|wc -l)
           echo "::set-output name=line_count::$LINE_COUNT"
+          echo "::set-output name=active_count::$ACTIVE_COUNT"
+          echo "::set-output name=inactive_count::$INACTIVE_COUNT"
+          echo "::set-output name=edge_case_count::$EDGE_CASE_COUNT"
 
       -  name: Display Counts
          run: |
-           echo "Word Count: ${{ steps.readme_stats.outputs.word_count }}"
-           echo "Line Count: ${{ steps.readme_stats.outputs.line_count }}"
+           echo "Total Takeovers Count: ${{ steps.readme_stats.outputs.line_count }}"
+           echo "Active Takeovers Count: ${{ steps.readme_stats.outputs.active_count }}"
+           echo "Inactive Takeovers Count: ${{ steps.readme_stats.outputs.inactive_count }}"
+           echo "Edge Case Takeovers Count: ${{ steps.readme_stats.outputs.edge_case_count }}"
