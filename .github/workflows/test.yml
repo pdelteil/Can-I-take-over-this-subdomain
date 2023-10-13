@@ -25,17 +25,17 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-  - name: Read README and Count
-      id: readme_stats
-      run: |
-        README_CONTENT=$(cat README.md)  # Update the filename if your README has a different name
-        WORD_COUNT=$(echo "$README_CONTENT" | wc -w)
-        LINE_COUNT=$(echo "$README_CONTENT" | wc -l)
-        # You can add more counts or processing as needed
-        echo "::set-output name=word_count::$WORD_COUNT"
-        echo "::set-output name=line_count::$LINE_COUNT"
+      - name: Read README and Count
+        id: readme_stats
+        run: |
+          README_CONTENT=$(cat README.md)  # Update the filename if your README has a different name
+          WORD_COUNT=$(echo "$README_CONTENT" | wc -w)
+          LINE_COUNT=$(echo "$README_CONTENT" | wc -l)
+          # You can add more counts or processing as needed
+          echo "::set-output name=word_count::$WORD_COUNT"
+          echo "::set-output name=line_count::$LINE_COUNT"
 
-  - name: Display Counts
-      run: |
-        echo "Word Count: ${{ steps.readme_stats.outputs.word_count }}"
-        echo "Line Count: ${{ steps.readme_stats.outputs.line_count }}"
+      -  name: Display Counts
+         run: |
+           echo "Word Count: ${{ steps.readme_stats.outputs.word_count }}"
+           echo "Line Count: ${{ steps.readme_stats.outputs.line_count }}"
