@@ -2,8 +2,8 @@
 ## What tha fork? 
 
 This fork is a legacy version of [Can I take over XYZ?](https://github.com/EdOverflow/can-i-take-over-xyz)
-This repo will be updated faster and in a clearer manner. 
 
+This repo will be updated faster and better. 
 
 
 ## What is a subdomain takeover?
