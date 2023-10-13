@@ -1,6 +1,6 @@
 name: New Takeover
 description: Add a new subdomain takeover case
-title: "[Takeover]: "
+title: "[Takeover]  "
 labels: ["takeover"]
 projects: ["can-i-take-over-this-subdomain"]
 assignees:
@@ -10,6 +10,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to share this new subdomain takeover!
+  - type: input
+    id: servicename
+    attributes:
+      label: Service name
+      description: What's the name of the vulnerable service?
+      placeholder: ex. Github
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
