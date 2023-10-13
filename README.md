@@ -5,7 +5,6 @@ This fork is a legacy version of [Can I take over XYZ?](https://github.com/EdOve
 
 This repo will be updated faster and better. 
 
-
 ## What is a subdomain takeover?
 
 > Subdomain takeover vulnerabilities occur when a subdomain (subdomain.example.com) is pointing to a service (e.g. GitHub pages, Heroku, etc.) that has been removed or deleted. This allows an attacker to set up a page on the service that was being used and point their page to that subdomain. 
@@ -91,7 +90,7 @@ SurveySparrow | Yes | `'Ouch! Account not found'` | [Issue #281](https://github.
 Tumblr| Edge Case| `Whatever you were looking for doesn't currently exist at this address` | [Issue #240](https://github.com/EdOverflow/can-i-take-over-xyz/issues/240) | [Tumblr Custom Domains](https://www.tumblr.com/docs/en/custom_domains)
 Tilda| Edge Case | `Please renew your subscription`| [Issue #155](https://github.com/EdOverflow/can-i-take-over-xyz/issues/155)[PR #20](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)
 Uberflip|Yes|| [Issue #150](https://github.com/EdOverflow/can-i-take-over-xyz/issues/150) | [Documentation](https://help.uberflip.com/hc/en-us/articles/360018786372-Custom-Domain-Set-up-Your-Hub-on-a-Subdomain)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/uberflip-takeover.yaml)
-Unbounce| No | `The requested URL was not found on this server.`| [Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/1dc592a59a0ff9729df00ce2de007f8ba0b38bf5/takeovers/unbounce-takeover.yaml) 
+Unbounce|No||[Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/1dc592a59a0ff9729df00ce2de007f8ba0b38bf5/takeovers/unbounce-takeover.yaml) 
 Uptimerobot| Yes| `page not found`|[Issue #45](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45) | [Writeup](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)
 UserVoice| Yes| `This UserVoice subdomain is currently available!`                      |
 Vercel| No| |[Issue #183](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/vercel-takeover.yaml)
