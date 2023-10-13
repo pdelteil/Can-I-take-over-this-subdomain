@@ -51,10 +51,10 @@ jobs:
 
       - name: Append Table to README
         run: |
-          LINE_COUNT="${{ steps.readme_stats.outputs.line_count  }}"
-          ACTIVE_COUNT="${{ steps.readme_stats.outputs.active_count }}"
-          INACTIVE_COUNT="${{steps.readme_stats.outputs.inactive_count }}"
-          EDGE_CASE_COUNT="${{ steps.readme_stats.outputs.edge_case_count }}"
+          LINE_COUNT=$(echo "${{ steps.readme_stats.outputs.line_count  }}")
+          ACTIVE_COUNT=$(echo "${{ steps.readme_stats.outputs.active_count }}")
+          INACTIVE_COUNT=$(echo "${{steps.readme_stats.outputs.inactive_count }}")
+          EDGE_CASE_COUNT=$(echo "${{ steps.readme_stats.outputs.edge_case_count }}")
 
           TABLE="\| Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers |  \"
           TABLE+="|------------------|-------------------|--------------------|---------------------|  \"
