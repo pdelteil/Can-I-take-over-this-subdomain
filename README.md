@@ -61,7 +61,7 @@ Github| Edge case|| [:information_source:](https://github.com/EdOverflow/can-i-t
 Gitlab|No || |[:closed_book:](https://hackerone.com/reports/312118)
 Google Cloud Storage |No |<?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist.</Message></Error>   
 Google Sites|No|`The requested URL was not found on this server. That’s all we know.`                                                    | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/277) |[:blue_book:](https://support.google.com/webmasters/answer/9008080?visit_id=637981741431097680-3818919062&rd=2)|
-HatenaBlog |Yes|`404 Blog is not found`|
+HatenaBlog |Yes||||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/hatenablog-takeover.yaml)
 Help Juice|Yes||| [:blue_book:](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpjuice-takeover.yaml)
 Help Scout|Yes||| [:blue_book:](https://docs.helpscout.net/article/42-setup-custom-domain)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpscout-takeover.yaml)
 Heroku| Edge case| `No such app`| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)
@@ -97,7 +97,7 @@ Tilda| Edge Case | `Please renew your subscription`| [:information_source:](http
 Uberflip|Yes|| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/150) | [:blue_book:](https://help.uberflip.com/hc/en-us/articles/360018786372-Custom-Domain-Set-up-Your-Hub-on-a-Subdomain)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/uberflip-takeover.yaml)
 Unbounce|No||[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/1dc592a59a0ff9729df00ce2de007f8ba0b38bf5/takeovers/unbounce-takeover.yaml) 
 Uptimerobot| Yes||[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45) | [:orange_book:](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/uptimerobot-takeover.yaml)
-UserVoice| Yes| `This UserVoice subdomain is currently available!`                      |
+UserVoice| Yes| |||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/uservoice-takeover.yaml)
 Vercel| No| |[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/vercel-takeover.yaml)
 Webflow| Edge Case| |[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[:blue_book:](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/webflow-takeover.yaml)
 Wix| Edge Case||[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/231) | | [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/wix-takeover.yaml)
