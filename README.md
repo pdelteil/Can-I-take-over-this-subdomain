@@ -68,7 +68,7 @@ Heroku| Edge case| `No such app`| [Issue](https://github.com/EdOverflow/can-i-ta
 HubSpot| No|`This page isn’t available`
 Instapage | No | | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/73) | |
 Intercom| Yes| `Uh oh. That page doesn't exist.`| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/69) | [Help center](https://www.intercom.com/help/)
-JetBrains| Yes| `is not a registered InCloud YouTrack`| | [YouTrack InCloud Help Page](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)
+JetBrains| Yes| `is not a registered InCloud YouTrack`| | [Documentation](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)
 Key CDN| No| | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/112) |
 Kinsta| Yes| `No Site For Domain`|[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48) | [Documentation](https://kinsta.com/knowledgebase/add-domain/)
 Landingi  | Edge case| `It looks like you’re lost...` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/117)
@@ -88,10 +88,10 @@ Smartling| Edge Case|`Domain is not configured`  | [Issue](https://github.com/Ed
 Squarespace| No |                                                                         |
 Statuspage | No | | [PR](https://github.com/EdOverflow/can-i-take-over-xyz/pull/105) [PR](https://github.com/EdOverflow/can-i-take-over-xyz/pull/171) | [Documentation](https://help.statuspage.io/knowledge_base/topics/domain-ownership) [Documentation](https://support.atlassian.com/statuspage/docs/configure-your-dns/) |[Yes](https://github.com/projectdiscovery/nuclei-templates/commit/b59915c4aee18e04d2680ef32fdfa88f1e725b6f#diff-03ac5eecfcef771523f7758b50e75ab5ca1e2eb0b9f5bf6779a18f8c98e6aba3)
 Strikingly|Yes||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/58) | [Writeup](https://medium.com/@sherif0x00/takeover-subdomains-pointing-to-strikingly-5e67df80cdfd)| [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/strikingly-takeover.yaml)
-Surge.sh| Yes| `project not found`|| [Surge Documentation](https://surge.sh/help/adding-a-custom-domain)
-Surveygizmo|Yes|||[Yes]([Surveygizmo](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/surveygizmo-takeover.yaml))
-SurveySparrow | Yes | `'Ouch! Account not found'` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/281) |[Custom domain]( https://help.surveysparrow.com/custom-domain)
-TeamWork | Yes | | | [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/teamwork-takeover.yaml)
+Surge.sh| Yes| `project not found`|| [Documentation](https://surge.sh/help/adding-a-custom-domain)
+Surveygizmo|Yes||||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/surveygizmo-takeover.yaml)
+SurveySparrow | Yes | `'Ouch! Account not found'` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/281) |[Documentation]( https://help.surveysparrow.com/custom-domain)
+TeamWork | Yes | | || [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/teamwork-takeover.yaml)
 Tumblr| Edge Case||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/240) | [Documentation](https://www.tumblr.com/docs/en/custom_domains)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/tumblr-takeover.yaml)
 Tilda| Edge Case | `Please renew your subscription`| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/155)[PR](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)
 Uberflip|Yes|| [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/150) | [Documentation](https://help.uberflip.com/hc/en-us/articles/360018786372-Custom-Domain-Set-up-Your-Hub-on-a-Subdomain)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/uberflip-takeover.yaml)
@@ -99,7 +99,7 @@ Unbounce|No||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11
 Uptimerobot| Yes| `page not found`|[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45) | [Writeup](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)
 UserVoice| Yes| `This UserVoice subdomain is currently available!`                      |
 Vercel| No| |[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/vercel-takeover.yaml)
-Webflow| Edge Case| |[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/webflow-takeover.yaml)
+Webflow| Edge Case| |[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[Forum](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/webflow-takeover.yaml)
 Wix| Edge Case||[Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/231) | | [Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/wix-takeover.yaml)
 Wordpress| Yes|| [PR](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/wordpress-takeover.yaml)
 Worksites | Yes | `Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.` | [Issue](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142) | 
