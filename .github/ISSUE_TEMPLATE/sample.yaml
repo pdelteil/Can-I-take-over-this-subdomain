@@ -20,13 +20,13 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: type
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Type of detection
+      description: Is it a NXDOMAIN error or a web predefined message?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - NXDOMAIN
+        - Web Error
       default: 0
     validations:
       required: true
