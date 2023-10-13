@@ -48,7 +48,7 @@ Cargo Collective|Yes||[:information_source:](https://github.com/EdOverflow/can-i
 Cloudfront| No| ViewerCertificateException| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29) | [Domain Security on Amazon CloudFront](https://aws.amazon.com/blogs/networking-and-content-delivery/continually-enhancing-domain-security-on-amazon-cloudfront/)
 Desk|No|`Please try again or try Desk.com free for 14 days.`| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
 Digital Ocean | Yes | Domain uses DO name servers with no records in DO. |   |   |
-Discourse | Yes | | | [Hackerone](https://hackerone.com/reports/264494)
+Discourse | Yes | | | [:closed_book:](https://hackerone.com/reports/264494)
 Fastly| No| `Fastly error: unknown domain:`| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)
 Feedpress| No| `The feed has not been found.`| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/80)
 Firebase | No | | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/128) |
@@ -58,7 +58,7 @@ Frontify | Edge case | `404 - Page Not Found` `Oops… looks like you got lost` 
 Gemfury | Yes | | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154) | [Writeup](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/gemfury-takeover.yaml)
 Ghost| Yes| `The thing you were looking for is no longer here, or never was`|
 Github| Edge case|| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/37) [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/68)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/github-takeover.yaml)
-Gitlab|No || |[HackerOne](https://hackerone.com/reports/312118)
+Gitlab|No || |[:closed_book:](https://hackerone.com/reports/312118)
 Google Cloud Storage |No |<?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist.</Message></Error>   
 Google Sites|No|`The requested URL was not found on this server. That’s all we know.`                                                    | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/277) |[Google Support](https://support.google.com/webmasters/answer/9008080?visit_id=637981741431097680-3818919062&rd=2)|
 HatenaBlog |Yes|`404 Blog is not found`|
@@ -74,7 +74,7 @@ Kinsta| Yes| `No Site For Domain`|[:information_source:](https://github.com/EdOv
 Landingi  | Edge case| `It looks like you’re lost...` | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/117)
 LaunchRock| Yes||[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74) | |[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/launchrock-takeover.yaml)
 Mashery|Edge Case||[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)| [HackeOne](https://hackerone.com/reports/275714) | [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/mashery-takeover.yaml)
-Medium| Edge Case | ``Oops! We couldn’t find that page. Sorry about that.``| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/206)| [HackerOne](https://hackerone.com/reports/1034023) 
+Medium| Edge Case | ``Oops! We couldn’t find that page. Sorry about that.``| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/206)| [:closed_book:](https://hackerone.com/reports/1034023) 
 Netlify | Edge Case | `Not Found - Request ID:`| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
 Ngrok | Yes |`Tunnel *.ngrok.io not found` | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92) | [:blue_book:](https://ngrok.com/docs#http-custom-domains)
 Pantheon| Yes||[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/24) | [Writeup](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)| [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/pantheon-takeover.yaml)
