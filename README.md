@@ -53,14 +53,14 @@ Firebase | No | | [Issue #128](https://github.com/EdOverflow/can-i-take-over-xyz
 Fly.io| Yes| `404 Not Found`| [Issue #101](https://github.com/EdOverflow/can-i-take-over-xyz/issues/101)
 Freshdesk| No |`We couldn't find servicedesk.victim.tld Maybe this is still fresh! You can claim it now at http://www.freshservice.com/signup`| [Issue #214](https://github.com/EdOverflow/can-i-take-over-xyz/issues/214)| [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
 Frontify | Edge case | `404 - Page Not Found` `Oops… looks like you got lost` | [Issue #170](https://github.com/EdOverflow/can-i-take-over-xyz/issues/170) | 
-Gemfury | Yes | `404: This page could not be found.` | [Issue #154](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154) | [Article](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)
+Gemfury | Yes | | [Issue #154](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154) | [Writeup](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/gemfury-takeover.yaml)
 Ghost| Yes| `The thing you were looking for is no longer here, or never was`|
 Github| Edge case|| [Issue #37](https://github.com/EdOverflow/can-i-take-over-xyz/issues/37) [Issue #68](https://github.com/EdOverflow/can-i-take-over-xyz/issues/68)||[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/github-takeover.yaml)
 Gitlab| No || [HackerOne #312118](https://hackerone.com/reports/312118)
 Google Cloud Storage | No |   <?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist.</Message></Error>   
 Google Sites| No| `The requested URL was not found on this server. That’s all we know.`                                                    | [Issue #277](https://github.com/EdOverflow/can-i-take-over-xyz/issues/277) | [Google Support](https://support.google.com/webmasters/answer/9008080?visit_id=637981741431097680-3818919062&rd=2)|
 HatenaBlog | Yes | `404 Blog is not found`|
-Help Juice| Yes| `We could not find what you're looking for.`|| [Help Juice Support Page](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)
+Help Juice| Yes| `We could not find what you're looking for.`|| [Help Juice Support Page](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)|
 Help Scout| Yes||| [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)|[Yes](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpscout-takeover.yaml)
 Heroku| Edge case| `No such app`| [Issue #38](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)
 HubSpot| No | `This page isn’t available`
