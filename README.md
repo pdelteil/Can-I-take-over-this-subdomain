@@ -57,6 +57,7 @@ Freshdesk|No|`We couldn't find servicedesk.victim.tld Maybe this is still fresh!
 Frontify | Edge case | `404 - Page Not Found` `Oops… looks like you got lost` | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/170) | 
 Gemfury |Yes| | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154) | [:green_book:](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/gemfury-takeover.yaml)
 Ghost|Yes| `The thing you were looking for is no longer here, or never was`|
+Gitbook|Yes|| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/259)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/gitbook-takeover.yaml)
 Github| Edge case|| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/37) [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/68)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/github-takeover.yaml)
 Gitlab|No|| |[:closed_book:](https://hackerone.com/reports/312118)
 Google Cloud Storage |No|<?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist.</Message></Error>   
