@@ -110,5 +110,5 @@ Zendesk|No|`Help Center Closed`| [:information_source:](https://github.com/EdOve
 # Stats 
 | Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers | 
    |------------------|-------------------|--------------------|---------------------| 
-  | 73 | 38 | 21 | 14 | 
+  | 74 | 39 | 21 | 14 | 
 
