@@ -69,7 +69,8 @@ Heroku| Edge case| `No such app`| [:information_source:](https://github.com/EdOv
 HubSpot|No|`This page isn’t available`
 Instapage |No| | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/73) | |
 Intercom|Yes| `Uh oh. That page doesn't exist.`| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/69) | [:blue_book:](https://www.intercom.com/help/)
-JetBrains|Yes| `is not a registered InCloud YouTrack`| | [:blue_book:](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)
+JazzHr|No||||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/jazzhr-takeover.yaml)
+JetBrains|Yes|||[:blue_book:](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/jetbrains-takeover.yaml)
 Key CDN|No| | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/112) |
 Kinsta|Yes| `No Site For Domain`|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48) | [:blue_book:](https://kinsta.com/knowledgebase/add-domain/)
 Landingi  | Edge case| `It looks like you’re lost...` | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/117)
