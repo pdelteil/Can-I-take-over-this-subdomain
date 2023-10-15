@@ -95,6 +95,7 @@ Strikingly|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-o
 Surge.sh|Yes|| [:blue_book:](https://surge.sh/help/adding-a-custom-domain)|
 Surveygizmo|Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/surveygizmo-takeover.yaml)
 SurveySparrow |Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/281) |[:blue_book:]( https://help.surveysparrow.com/custom-domain)|
+Tally|Edge Case|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/363)||:x:
 TeamWork |Yes| || [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/teamwork-takeover.yaml)
 Tumblr| Edge Case|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/240) | [:blue_book:](https://www.tumblr.com/docs/en/custom_domains)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/tumblr-takeover.yaml)
 Tilda| Edge Case | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/155)[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/076aa6cafde57ffd2e8781650525122f452e2338/http/takeovers/tilda-takeover.yaml#L4)
