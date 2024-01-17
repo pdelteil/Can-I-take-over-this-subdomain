@@ -51,7 +51,7 @@ Cloudfront|No| [:information_source:](https://github.com/EdOverflow/can-i-take-o
 Desk|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)||
 Digital Ocean |Yes|   |   |
 Discourse |Yes| | [:closed_book:](https://hackerone.com/reports/264494)|
-Fastly|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)||
+Fastly|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/e254f7b884dc975316a2f8d77e3fe0ce140cc91b/takeovers/fastly-takeover.yaml)
 Feedpress|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/80)||
 Firebase |No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/128) ||
 Fly.io|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/101)||
