@@ -77,6 +77,7 @@ Key CDN|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over
 Kinsta|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48) | [:blue_book:](https://kinsta.com/knowledgebase/add-domain/)|
 Landingi  | Edge case| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/117)||
 LaunchRock|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74) | |[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/launchrock-takeover.yaml)
+LemList|Edge case| ||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/lemlist-takeover.yaml)
 Mashery|Edge Case|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)| [:closed_book:](https://hackerone.com/reports/275714) | [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/mashery-takeover.yaml)
 Medium| Edge Case | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/206)| [:closed_book:](https://hackerone.com/reports/1034023) |
 Netlify | Edge Case | [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) ||
