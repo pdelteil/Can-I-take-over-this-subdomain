@@ -32,7 +32,7 @@ Fingerprints are found in the linked issues or in the nuclei templates.
 
 Service|Vulnerable|Discussions|Docs|Nuclei template
 :---|:---:|:---:|:---:|:---:
-[Acquia](https://www.acquia.com/)|No|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)||:x:
+[Acquia](https://www.acquia.com/)|No|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)||[:heavy_check_mark:](https://github.com/rtcms/nuclei-templates/blob/fc5546e4720adaa026a74b5937f474cc10c14f22/takeovers/acquia-takeover.yaml)
 [Agile CRM](https://www.agilecrm.com/)|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/agilecrm-takeover.yaml)
 [Airee.ru](https://айри.рф/)|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)||[:heavy_check_mark: ](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/airee-takeover.yaml)
 Anima|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)|[:blue_book:](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)| [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/anima-takeover.yaml)
