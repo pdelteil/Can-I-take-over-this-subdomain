@@ -65,6 +65,7 @@ Gitlab|No| |[:closed_book:](https://hackerone.com/reports/312118)|
 Google Cloud Storage |No|||
 Google Sites|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/277) |[:blue_book:](https://support.google.com/webmasters/answer/9008080?visit_id=637981741431097680-3818919062&rd=2)|
 HatenaBlog |Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/hatenablog-takeover.yaml)
+HelpDocs|Yes|||
 Help Juice|Yes|| [:blue_book:](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpjuice-takeover.yaml)
 Help Scout|Yes|| [:blue_book:](https://docs.helpscout.net/article/42-setup-custom-domain)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpscout-takeover.yaml)
 Heroku| Edge case| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)||
