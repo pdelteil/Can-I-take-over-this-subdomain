@@ -43,7 +43,7 @@ AWS Elastic Beanstalk|Yes|[:information_source:](https://github.com/EdOverflow/c
 AWS Load Balancer (ELB)|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)||
 AWS S3|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/aws-bucket-takeover.yaml)
 Azure|Edge case| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) ||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/azure-takeover-detection.yaml)
-BetterUptime|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/368)||:x:
+BetterUptime|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/368)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/63427f8332a0c0174b4c6e35d6a70a649b3304e9/http/takeovers/betteruptime-takeover.yaml)
 Bitbucket|Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/bitbucket-takeover.yaml)
 Campaign Monitor|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/275)|[:blue_book:](https://help.campaignmonitor.com/custom-domain-names)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/campaignmonitor-takeover.yaml)
 Cargo Collective|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/152)| [:blue_book:](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)|
