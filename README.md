@@ -24,7 +24,7 @@ The only tool that will be supporting the discovery of takeover is going to be N
 2. You can add the service directly in this [Readme](https://github.com/pdelteil/Can-I-take-over-this-subdomain/edit/master/README.md)
 3. Create a Nuclei template for takeovers. (Doesn't matter if it's not vulnerable anymore).
 4. Find public bug bounty reports and link it to the takeover.
-5. Sponsore this project. 
+5. Sponsor this project. 
 
 # All entries
 
