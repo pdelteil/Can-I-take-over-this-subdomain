@@ -70,7 +70,7 @@ HatenaBlog |Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nucle
 Help Juice|Yes|| [:blue_book:](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpjuice-takeover.yaml)
 Help Scout|Yes|| [:blue_book:](https://docs.helpscout.net/article/42-setup-custom-domain)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpscout-takeover.yaml)
 Heroku| Edge case| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)||
-HubSpot|No|||
+HubSpot|No|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/hubspot-takeover.yaml)
 Instapage |No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/73) | |
 Intercom|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/69) | [:blue_book:](https://www.intercom.com/help/)|
 JazzHr|No|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/jazzhr-takeover.yaml)
