@@ -56,7 +56,7 @@ Feedpress|No| [:information_source:](https://github.com/EdOverflow/can-i-take-ov
 Firebase |No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/128) ||
 Fly.io|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/101)||
 Freshdesk|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/214)| [:blue_book:](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)|
-Frontify |Edge case|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/170) | [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/frontify-takeover.yaml)|
+Frontify |Edge case|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/170) || [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/frontify-takeover.yaml)|
 Gemfury |Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154) | [:green_book:](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/gemfury-takeover.yaml)
 Ghost|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/8)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/ghost-takeover.yaml)
 Gitbook|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/259)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/gitbook-takeover.yaml)
