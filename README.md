@@ -63,7 +63,7 @@ Gitbook|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-ove
 Github| Edge case| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/37) [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/68)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/github-takeover.yaml)
 Gitlab|No| |[:closed_book:](https://hackerone.com/reports/312118)|
 Gohire|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/403)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/dc4019ff0ce089802a84ff4f12190b2ab5fa96dc/http/takeovers/gohire-takeover.yaml)
-Google Cloud Storage |No|||
+Google Cloud Storage |No|[:information_source:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/7)||
 Google Sites|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/277) |[:blue_book:](https://support.google.com/webmasters/answer/9008080?visit_id=637981741431097680-3818919062&rd=2)|
 HatenaBlog |Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/hatenablog-takeover.yaml)
 [HelpDocs](https://www.helpdocs.io/)|Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpdocs-takeover.yaml)
