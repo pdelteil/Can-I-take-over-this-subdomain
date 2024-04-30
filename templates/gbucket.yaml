@@ -1,0 +1,37 @@
+id: gbucket-takeover
+
+info:
+  name: gbucket Takeover Detection
+  author: philippedelteil
+  severity: info
+  description: Dangling Google bucket detected.
+  reference:
+    - https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/7
+  metadata:
+    verified: true
+    max-request: 1
+  tags: takeover
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    matchers-condition: and
+    matchers:
+      - type: dsl
+        dsl:
+          - Host != ip
+      - type: word
+        part: header
+        words:
+          - "X-Guploader-Uploadid:"
+      - type: word
+        words:
+          - "NoSuchBucket"
+          - "The specified bucket does not exist"
+        condition: and
+
+      - type: status
+        status:
+          - 404
