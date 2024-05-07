@@ -46,10 +46,14 @@ jobs:
           ACTIVE_COUNT=$(echo "$TABLE_LINES"|awk -F"|" '{print $2}'|grep -i "Yes"|wc -l)
           INACTIVE_COUNT=$(echo "$TABLE_LINES"|awk -F"|" '{print $2}'|grep -i "No"|wc -l)
           EDGE_CASE_COUNT=$(echo "$TABLE_LINES"|awk -F"|" '{print $2}'|grep -i "Edge Case"|wc -l)
+          WITH_TEMPLATE_COUNT=$(echo $TABLE_LINES"|awk -F"|" '{print $2}'|grep -i "heavy_check_mark"|wc -l
+          WITHOUT_TEMPLATE_COUNT=$((LINE_COUNT - WITH_TEMPLATE_COUNT))
           echo "::set-output name=line_count::$LINE_COUNT"
           echo "::set-output name=active_count::$ACTIVE_COUNT"
           echo "::set-output name=inactive_count::$INACTIVE_COUNT"
           echo "::set-output name=edge_case_count::$EDGE_CASE_COUNT"
+          echo "::set-output name=with_template_count::$WITH_TEMPLATE_COUNT"
+          echo "::set-output name=without_template_count::$WITHOUT_TEMPLATE_COUNT"
 
       -  name: Display Counts
          run: |
@@ -57,6 +61,8 @@ jobs:
            echo "Active Takeovers Count: ${{ steps.readme_stats.outputs.active_count }}"
            echo "Inactive Takeovers Count: ${{ steps.readme_stats.outputs.inactive_count }}"
            echo "Edge Case Takeovers Count: ${{ steps.readme_stats.outputs.edge_case_count }}"
+           echo "Takeovers with templates Count: ${{ steps.readme_stats.outputs.with_template_count }}"
+           echo "Takeovers without templates Count: ${{ steps.readme_stats.outputs.without_template_count }}"
 
       - name: Append Table to README
         run: |
@@ -64,11 +70,17 @@ jobs:
           ACTIVE_COUNT=$(echo "${{ steps.readme_stats.outputs.active_count }}")
           INACTIVE_COUNT=$(echo "${{steps.readme_stats.outputs.inactive_count }}")
           EDGE_CASE_COUNT=$(echo "${{ steps.readme_stats.outputs.edge_case_count }}")
-
+          WITH_TEMPLATE_COUNT=$(echo "${{ steps.readme_stats.outputs.with_template_count }}")
+          WITHOUT_TEMPLATE_COUNT=$(echo "${{ steps.readme_stats.outputs.without_template_count }}")
+          
           TABLE=$'| Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers | \n '
           TABLE+=$'  |------------------|-------------------|--------------------|---------------------| \n'
           TABLE+=$'  | '$LINE_COUNT' | '$ACTIVE_COUNT' | '$INACTIVE_COUNT' | '$EDGE_CASE_COUNT' | \n'
-          echo -e "$TABLE" >> README.md
+
+          TABLE2=$'| Takeovers with templates | Takeovers without templates| \n '
+          TABLE2+=$'  |------------------|-------------------| \n'
+          TABLE2+=$'  | '$WITH_TEMPLATE_COUNT' | '$WITHOUT_TEMPLATE_COUNT' | \n'
+          echo -e "$TABLE \n $TABLE2" >> README.md
 
       # Commit the changes
       - name: Check for changes
