@@ -46,7 +46,7 @@ jobs:
           ACTIVE_COUNT=$(echo "$TABLE_LINES"|awk -F"|" '{print $2}'|grep -i "Yes"|wc -l)
           INACTIVE_COUNT=$(echo "$TABLE_LINES"|awk -F"|" '{print $2}'|grep -i "No"|wc -l)
           EDGE_CASE_COUNT=$(echo "$TABLE_LINES"|awk -F"|" '{print $2}'|grep -i "Edge Case"|wc -l)
-          WITH_TEMPLATE_COUNT=$(echo $TABLE_LINES"|awk -F"|" '{print $2}'|grep -i "heavy_check_mark"|wc -l
+          WITH_TEMPLATE_COUNT=$(echo $TABLE_LINES"|awk -F"|" '{print $2}'|grep -i "heavy_check_mark"|wc -l)
           WITHOUT_TEMPLATE_COUNT=$((LINE_COUNT - WITH_TEMPLATE_COUNT))
           echo "::set-output name=line_count::$LINE_COUNT"
           echo "::set-output name=active_count::$ACTIVE_COUNT"
