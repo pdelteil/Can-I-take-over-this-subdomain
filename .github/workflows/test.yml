@@ -89,8 +89,8 @@ jobs:
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
           else
-            git config user.name "Your Name"
-            git config user.email "your.email@example.com"
+            git config user.name "pdelteil"
+            git config user.email "pdelteil@gmail.com"
             git add .
             git commit -m "Auto-commit changes"
             git push
