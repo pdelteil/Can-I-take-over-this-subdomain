@@ -125,5 +125,5 @@ Zendesk|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over
  
  | Takeovers with templates | Takeovers without templates| 
    |------------------|-------------------| 
-  | 0 | 84 | 
+  | 57 | 27 | 
 
