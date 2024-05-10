@@ -36,6 +36,7 @@ Service|Vulnerable|Discussions|Docs|Nuclei template
 [Agile CRM](https://www.agilecrm.com/)|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/agilecrm-takeover.yaml)
 [Airee.ru](https://айри.рф/)|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)||[:heavy_check_mark: ](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/airee-takeover.yaml)
 Anima|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)|[:blue_book:](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)| [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/anima-takeover.yaml)
+Announcekit|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/228)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/announcekit-takeover.yaml)
 Akamai|No|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) ||
 AWS Cognito | Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/358)|||
 AWS EC2|Yes|[:information_source:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/3)||[:heavy_check_mark: ](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/ec2-detection.yaml)
