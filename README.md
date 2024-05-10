@@ -113,7 +113,7 @@ Vercel|No|[:information_source:](https://github.com/EdOverflow/can-i-take-over-x
 Webflow| Edge Case|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[:blue_book:](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/webflow-takeover.yaml)
 Wix| Edge Case|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/231) | | [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/wix-takeover.yaml)
 Wordpress|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/wordpress-takeover.yaml)
-Worksites |Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142) | |
+Worksites |Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142) | |[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/worksites-takeover.yaml)
 WP Engine|No|||
 Zendesk|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [:blue_book:](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/076aa6cafde57ffd2e8781650525122f452e2338/http/takeovers/zendesk-takeover.yaml#L4)
 
