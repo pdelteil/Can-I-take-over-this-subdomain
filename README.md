@@ -1,4 +1,3 @@
-
 ## What tha fork? 
 
 This fork is a legacy version of [Can I take over XYZ?](https://github.com/EdOverflow/can-i-take-over-xyz)
