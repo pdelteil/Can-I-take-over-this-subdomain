@@ -1,0 +1,32 @@
+id:  fly-io
+
+info:
+  name: fly.io takeover detection
+  author: philippedelteil
+  severity: low
+  description: |
+    Detects a possible fly.io subdomain takeover
+  metadata:
+    verified: true
+    max-request: 1
+  tags: dns,fly.io,takeover
+
+dns:
+  - name: "{{FQDN}}"
+
+    type: A
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - "NXDOMAIN"
+      - type: dsl
+        dsl:
+          - 'contains(cname, ".fly.dev")'
+
+    extractors:
+      - type: dsl
+        dsl:
+          - cname
+# digest: 4a0a0047304502207543d23b674d6f6af33197f11d534a088adecaa546feb4f674e59c3e17435c14022100ac553ae6b8aa7adc877bf3324accc71ae8801972775c0ed2961e076777d0b66c:922c64590222798bb761d5b6d8e72950
