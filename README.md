@@ -56,7 +56,7 @@ Discourse |Yes| | [:closed_book:](https://hackerone.com/reports/264494)|:x:
 [Fastly](https://www.fastly.com/)|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/e254f7b884dc975316a2f8d77e3fe0ce140cc91b/takeovers/fastly-takeover.yaml)
 Feedpress|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/80)||:x:
 Firebase |No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/128) ||:x:
-Fly.io|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/132)||:x:
+Fly.io|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/132)||[:heavy_check_mark:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/blob/master/templates/fly-io.yaml)
 Freshdesk|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/214)| [:blue_book:](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)|:x:
 Frontify |Edge case|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/170) || [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/frontify-takeover.yaml)|:x:
 Gemfury |Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154) | [:green_book:](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/gemfury-takeover.yaml)
