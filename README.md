@@ -125,9 +125,9 @@ Zendesk|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over
 # Stats 
 | Total Takeovers | Active Takeovers | Inactive Takeovers | Edge Case Takeovers | 
    |------------------|-------------------|--------------------|---------------------| 
-  | 88 | 50 | 21 | 17 | 
+  | 89 | 51 | 21 | 17 | 
  
  | Takeovers with templates | Takeovers without templates| 
    |------------------|-------------------| 
-  | 64 | 24 | 
+  | 65 | 24 | 
 
