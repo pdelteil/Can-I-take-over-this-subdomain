@@ -40,9 +40,9 @@ Anima|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-x
 Announcekit|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/228)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/announcekit-takeover.yaml)
 Akamai|No|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) ||:x:
 AWS Cognito | Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/358)||:x:
-AWS EC2|Yes|[:information_source:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/3)||[:heavy_check_mark: ](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/ec2-detection.yaml)
-AWS Elastic Beanstalk|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)||[:heavy_check_mark: ](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/elasticbeanstalk-takeover.yaml)
-AWS Load Balancer (ELB)|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)||:x:
+AWS EC2|Yes|[:information_source:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/3)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/ec2-detection.yaml)
+AWS Elastic Beanstalk|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/elasticbeanstalk-takeover.yaml)
+AWS Elastic Load Balancer (ELB)|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)||[:heavy_check_mark:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/blob/master/templates/elasticloadbalancer-takeover.yaml)
 AWS S3|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/aws-bucket-takeover.yaml)
 Azure|Edge case| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) ||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/azure-takeover-detection.yaml)
 BetterUptime|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/368)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/63427f8332a0c0174b4c6e35d6a70a649b3304e9/http/takeovers/betteruptime-takeover.yaml)
