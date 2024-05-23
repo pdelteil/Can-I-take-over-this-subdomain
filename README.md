@@ -82,7 +82,7 @@ Intercom|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-ov
 JazzHr|No|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/jazzhr-takeover.yaml)
 JetBrains|Yes||[:blue_book:](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/jetbrains-takeover.yaml)
 Key CDN|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/112) ||:x:
-Kinsta|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48) | [:blue_book:](https://kinsta.com/knowledgebase/add-domain/)|:x:
+Kinsta|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48) | [:blue_book:](https://kinsta.com/knowledgebase/add-domain/)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/kinsta-takeover.yaml)
 Landingi  | Edge case| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/117)||:x:
 LaunchRock|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74) | |[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/launchrock-takeover.yaml)
 LemList|Edge case| ||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/lemlist-takeover.yaml)
