@@ -73,6 +73,7 @@ Google Sites|No| [:information_source:](https://github.com/EdOverflow/can-i-take
 HatenaBlog |Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/hatenablog-takeover.yaml)
 [HelpDocs](https://www.helpdocs.io/)|Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpdocs-takeover.yaml)
 Help Juice|Yes|| [:blue_book:](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpjuice-takeover.yaml)
+[Helprace](https://helprace.com)|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/115)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helprace-takeover.yaml)
 Help Scout|Yes|| [:blue_book:](https://docs.helpscout.net/article/42-setup-custom-domain)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpscout-takeover.yaml)
 Heroku| Edge case| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)||[:heavy_check_mark:](https://github.com/mosesrenegade/nuclei-templates/blob/75a8c562a3c637a6112aaa522950b512cab09144/http/takeovers/heroku-takeover.yaml)
 HubSpot|No|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/hubspot-takeover.yaml)
