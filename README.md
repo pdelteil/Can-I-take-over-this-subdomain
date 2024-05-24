@@ -39,7 +39,7 @@ Aha|Yes|[:information_source:](https://github.com/pdelteil/Can-I-take-over-this-
 Anima|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)|[:blue_book:](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)| [:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/anima-takeover.yaml)
 Announcekit|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/228)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/announcekit-takeover.yaml)
 Akamai|No|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) ||:x:
-AWS Cognito | Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/358)||:x:
+AWS Cognito | No|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/358)||[:heavy_check_mark:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/blob/master/templates/cognito-takeover.yaml)
 AWS EC2|Yes|[:information_source:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/3)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/ec2-detection.yaml)
 AWS Elastic Beanstalk|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/dns/elasticbeanstalk-takeover.yaml)
 AWS Elastic Load Balancer (ELB)|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)||[:heavy_check_mark:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/blob/master/templates/elasticloadbalancer-takeover.yaml)
