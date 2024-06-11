@@ -51,7 +51,7 @@ Bitbucket|Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-
 Campaign Monitor|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/275)|[:blue_book:](https://help.campaignmonitor.com/custom-domain-names)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/campaignmonitor-takeover.yaml)
 Cargo Collective|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/152)| [:blue_book:](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)|:x:
 Clever|Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/clever-takeover.yaml)
-Cloudron | No |||:x:
+Cloudron | No |[:information_source:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/17)||[:heavy_check_mark:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/blob/master/templates/cloudrone-takeover.yaml)
 Cloudfront|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29) | [:blue_book:](https://aws.amazon.com/blogs/networking-and-content-delivery/continually-enhancing-domain-security-on-amazon-cloudfront/)|:x:
 Desk|No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)||:x:
 Digital Ocean |Yes|   |   |:x:
