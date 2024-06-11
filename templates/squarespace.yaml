@@ -1,0 +1,28 @@
+id: squarespace-takeover
+
+info:
+  name: Squarespace Takeover Detection
+  author: philippedelteil
+  severity: low
+  description: Squarespace takeover was detected.
+  metadata:
+    max-request: 1
+  tags: takeover
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+    redirects: true
+    max-redirects: 3
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'This site has been deleted by the owner.'
+          - 'This site is currently private.'
+          - 'This domain has been mapped to Squarespace, but it has not yet been claimed'
+        part: body
+      - type: status
+        status:
+          - 404
