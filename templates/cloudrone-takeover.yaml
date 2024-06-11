@@ -1,0 +1,19 @@
+id: cloudrone-takeover
+
+info:
+  name: cloudrone takeover detection
+  author: philippedelteil
+  severity: info
+  tags: takeover
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    matchers:
+      - type: word
+        words:
+          - "You are seeing this page because the DNS record of"
+          - "but Cloudron has no app configured for this domain."
+        condition: and
