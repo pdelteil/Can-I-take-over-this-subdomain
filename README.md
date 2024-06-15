@@ -48,6 +48,7 @@ Azure|Edge case| [:information_source:](https://github.com/EdOverflow/can-i-take
 BetterUptime|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/368)||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/63427f8332a0c0174b4c6e35d6a70a649b3304e9/http/takeovers/betteruptime-takeover.yaml)
 Bigcartel|Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/bigcartel-takeover.yaml)
 Bitbucket|Yes|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/bitbucket-takeover.yaml)
+Bubble.io|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/382)||:x:
 Campaign Monitor|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/275)|[:blue_book:](https://help.campaignmonitor.com/custom-domain-names)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/campaignmonitor-takeover.yaml)
 [Campuspress](https://www.campuspress.com)|Yes|||:x:
 Cargo Collective|Yes|[:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/152)| [:blue_book:](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)|:x:
