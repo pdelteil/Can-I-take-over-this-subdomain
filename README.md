@@ -82,6 +82,7 @@ Help Juice|Yes|| [:blue_book:](https://help.helpjuice.com/en_US/using-your-custo
 Help Scout|Yes|| [:blue_book:](https://docs.helpscout.net/article/42-setup-custom-domain)|[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/helpscout-takeover.yaml)
 Heroku| Edge case| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)||[:heavy_check_mark:](https://github.com/mosesrenegade/nuclei-templates/blob/75a8c562a3c637a6112aaa522950b512cab09144/http/takeovers/heroku-takeover.yaml)
 HubSpot|No|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/hubspot-takeover.yaml)
+IBM Storage (COS) | Edge case|[:information_source:](https://github.com/pdelteil/Can-I-take-over-this-subdomain/discussions/20)||:x:
 Instapage |No| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/73) | |:x:
 Intercom|Yes| [:information_source:](https://github.com/EdOverflow/can-i-take-over-xyz/issues/69) | [:blue_book:](https://www.intercom.com/help/)|:x:
 JazzHr|No|||[:heavy_check_mark:](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/takeovers/jazzhr-takeover.yaml)
